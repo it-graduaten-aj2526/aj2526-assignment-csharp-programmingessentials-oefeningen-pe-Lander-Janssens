@@ -1,4 +1,3 @@
-﻿//Declaratie variabelen
 double prijs1;
 double BTW;
 
