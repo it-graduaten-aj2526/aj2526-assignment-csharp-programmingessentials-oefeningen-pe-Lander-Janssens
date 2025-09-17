@@ -10,4 +10,4 @@ int totaleGesprekken = internationale + nationale;
 
 double eindprijs = totaleGesprekken * 0.12 + 23 + (totaleGesprekken * 0.12 + 23 ) * 0.21;
 
-Console.WriteLine($"Het totaal te betalen bedrag is: {Convert.ToInt32(eindprijs)}");
+Console.WriteLine($"Totaal te betalen: {Convert.ToInt32(eindprijs)}");
