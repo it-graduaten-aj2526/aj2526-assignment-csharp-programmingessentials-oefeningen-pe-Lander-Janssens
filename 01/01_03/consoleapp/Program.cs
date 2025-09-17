@@ -8,4 +8,4 @@ volwassenen = int.Parse(Console.ReadLine());
 Console.WriteLine("Met hoeveel kinderen zijn jullie?");
 kinderen = int.Parse(Console.ReadLine());
 
-Console.WriteLine($"Het totale bedrag is: {Convert.ToInt32((prijs1 * volwassenen) + (prijs2 * kinderen))}");
+Console.WriteLine($"Totaal te betalen: {Convert.ToInt32((prijs1 * volwassenen) + (prijs2 * kinderen))}");
