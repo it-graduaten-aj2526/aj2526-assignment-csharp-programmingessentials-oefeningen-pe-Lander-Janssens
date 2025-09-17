@@ -1,6 +1,6 @@
-double prijs1 = 10;
+int prijs1 = 10;
 double prijs2 = 7.50;
-double volwassenen, kinderen;
+int volwassenen, kinderen;
 
 Console.WriteLine("Met hoeveel volwassenen zijn jullie?");
 volwassenen = double.Parse(Console.ReadLine());
