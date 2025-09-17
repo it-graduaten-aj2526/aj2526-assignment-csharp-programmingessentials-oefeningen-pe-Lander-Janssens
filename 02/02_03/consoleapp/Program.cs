@@ -1,17 +1,20 @@
-﻿string naam;
+string naam, achternaam;
 int leeftijd;
 
-Console.Write("Wat is uw volledige naam?");
+Console.Write("Wat is uw naam: ");
 naam = Console.ReadLine();
 
-Console.Write("Wat is uw leeftijd?");
+Console.Write("Wat is uw familie naam: ");
+achternaam = Console.ReadLine();
+
+Console.Write("Wat is uw leeftijd: ");
 leeftijd = int.Parse(Console.ReadLine());
 
 if (leeftijd >= 18)
 {
-    Console.Write($"Dag {naam} u behoort tot de volwassenen");
+    Console.Write($"{naam} {achternaam}: Volwassenen");
 }
 else
 {
-    Console.Write($"Dag{naam} u behoort tot de jeugd");
+    Console.Write($"{naam} {achternaam}: Jeugd");
 }
