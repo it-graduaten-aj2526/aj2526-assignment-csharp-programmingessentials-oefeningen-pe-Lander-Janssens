@@ -1,9 +1,9 @@
 double prijs1;
 double BTW;
 
-
 Console.WriteLine("Geef de prijs in");
 prijs1 = double.Parse(Console.ReadLine());
+
 Console.WriteLine("Geef de BTW in"); 
 BTW = double.Parse(Console.ReadLine());
 
