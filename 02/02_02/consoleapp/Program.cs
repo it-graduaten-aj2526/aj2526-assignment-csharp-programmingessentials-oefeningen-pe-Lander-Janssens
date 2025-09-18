@@ -1,4 +1,4 @@
-﻿int getal1, getal2;
+int getal1, getal2;
 
 Console.Write("Geef je eerste getal in");
 getal1 = int.Parse(Console.ReadLine());

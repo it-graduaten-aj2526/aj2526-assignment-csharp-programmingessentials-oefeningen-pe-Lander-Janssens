@@ -9,4 +9,4 @@ BTW = double.Parse(Console.ReadLine());
 
 prijs1 += (prijs1 * (BTW / 100) );
 
-Console.WriteLine($"Prijs inclusief btw is {Convert.ToInt32(prijs1)}");
+Console.WriteLine($"Prijs inclusief BTW: {Convert.ToInt32(prijs1)}");

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿int getal1;
+=======
+int getal1;
+>>>>>>> a46c910b445fe4c8f9b2a51657f4ac13d90a62f0
 
 Console.Write("Geef het deeltal in: ");
 getal1 = int.Parse(Console.ReadLine());
@@ -14,4 +18,8 @@ if (getal1  != 0)
 else
 {
     Console.Write("Deelbaar");
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a46c910b445fe4c8f9b2a51657f4ac13d90a62f0
