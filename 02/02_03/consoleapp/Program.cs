@@ -13,5 +13,5 @@ if (leeftijd >= 18)
 }
 else
 {
-    Console.Write($"Dag{naam} u behoort tot de jeugd");
+    Console.Write($"Dag {naam} u behoort tot de jeugd");
 }
