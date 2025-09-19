@@ -1,4 +1,4 @@
-﻿Console.Write("landingsplaats: ");
+﻿Console.Write("landingsplaats?: ");
 int landingsplaats = int.Parse(Console.ReadLine());
 
 if (landingsplaats == 1)
