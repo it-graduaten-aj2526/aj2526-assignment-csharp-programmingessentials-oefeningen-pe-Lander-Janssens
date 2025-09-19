@@ -8,7 +8,7 @@ getal2 = int.Parse(Console.ReadLine());
 
 if (getal2 == 0)
 {
-    Console.Write($" {getal1} is niet deelbaar door 0");
+    Console.Write($"{getal1} is niet deelbaar door 0");
 }
 else
 {
