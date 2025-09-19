@@ -12,5 +12,5 @@ if (getal2 == 0)
 }
 else
 {
-    Console.WriteLine($"de uitkomst is {getal1 = getal1 / getal2}");
+    Console.WriteLine($"{getal1 = getal1 / getal2}");
 }
