@@ -1,10 +1,10 @@
 
-int volwassenen, kinderen;
+double volwassenen, kinderen;
 
 Console.Write("Met hoeveel volwassenen zijn jullie?: ");
-volwassenen = int.Parse(Console.ReadLine());
+volwassenen = double.Parse(Console.ReadLine());
 
 Console.Write("Met hoeveel kinderen zijn jullie?: ");
-kinderen = int.Parse(Console.ReadLine());
+kinderen = double.Parse(Console.ReadLine());
 
-Console.WriteLine($"Totaal te betalen: {Convert.ToInt32((10 * volwassenen) + (7,50 * kinderen))}");
+Console.WriteLine($"Totaal te betalen: {(10 * volwassenen) + (7.50 * kinderen)}");
