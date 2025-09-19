@@ -8,10 +8,10 @@ getal2 = int.Parse(Console.ReadLine());
 
 if (getal2 == 0)
 {
-    Console.Write($"{getal1} is niet deelbaar door 0");
+    Console.WriteLine($"{getal1} is niet deelbaar door 0.");
 }
 else
 {
     int getal3 = getal1 / getal2;
-    Console.Write($"{getal1}/{getal2} = {getal3}");
+    Console.WriteLine($"{getal1} / {getal2} = {getal3}");
 }
