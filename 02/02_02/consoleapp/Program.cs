@@ -1,9 +1,9 @@
 int getal1, getal2;
 
-Console.Write("Geef je eerste getal in");
+Console.Write("Geef je eerste getal in: ");
 getal1 = int.Parse(Console.ReadLine());
 
-Console.Write("Geef je tweede getal in");
+Console.Write("Geef je tweede getal in: ");
 getal2 = int.Parse(Console.ReadLine());
 
 if (getal2 == 0)
@@ -12,5 +12,6 @@ if (getal2 == 0)
 }
 else
 {
-    Console.WriteLine($"{getal1 = getal1 / getal2}");
+    int getal3 = getal1 / getal2;
+    Console.Write($"{getal1}/{getal2} = {getal3}");
 }
